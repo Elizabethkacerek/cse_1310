@@ -1,0 +1,10 @@
+public class example1 {
+  public static void main(String[] args) {
+    int days = 31;
+    String month = "July";
+    double temperature = 85.3;
+    System.out.printf("There are %d days in %s\n", days, month);
+    System.out.printf("Average temperature in %s: %f degrees\n",
+        month, temperature);
+  }
+}
